@@ -1,0 +1,23 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\EditorScript.js">
+    <Files>
+      <File FileName="Assets\Scripts\PauseScript.js" Line="4" Column="31" />
+      <File FileName="Assets\Scripts\SceneSpawnerScript.js" Line="48" Column="44" />
+      <File FileName="Assets\Scripts\RightFence.js" Line="18" Column="82" />
+      <File FileName="Assets\Scripts\LeftFence.js" Line="18" Column="100" />
+      <File FileName="Assets\Scripts\ItemScript.js" Line="10" Column="89" />
+      <File FileName="Assets\Scripts\EditorScript.js" Line="59" Column="2" />
+      <File FileName="Assets\Scripts\SpawnerScriptJ2.js" Line="42" Column="5" />
+      <File FileName="Assets\Scenes\playmovie.js" Line="1" Column="21" />
+      <File FileName="Assets\Scripts\MenuScript.js" Line="35" Column="3" />
+      <File FileName="Assets\Scenes\backbutton.js" Line="13" Column="4" />
+      <File FileName="Assets\Scripts\scriptPlayer.js" Line="11" Column="1" />
+      <File FileName="Assets\Scenes\backbutton1.js" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

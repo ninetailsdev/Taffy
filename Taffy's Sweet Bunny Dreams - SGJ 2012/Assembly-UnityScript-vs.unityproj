@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{31E7C6FE-090B-7774-3814-2C73FD20C1F0}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-UnityScript</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_3_5_0;UNITY_3_5;UNITY_EDITOR;ENABLE_PROFILER;UNITY_STANDALONE_WIN;ENABLE_GENERICS;ENABLE_DUCK_TYPING;ENABLE_TERRAIN;ENABLE_MOVIES;ENABLE_WEBCAM;ENABLE_MICROPHONE;ENABLE_NETWORK;ENABLE_CLOTH;ENABLE_WWW;ENABLE_SUBSTANCE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="UnityEngine">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\STILLRUNB.js" />
+     <Compile Include="Assets\Scenes\backbutton.js" />
+     <Compile Include="Assets\Scenes\backbutton1.js" />
+     <Compile Include="Assets\Scenes\movecredits.js" />
+     <Compile Include="Assets\Scenes\playmovie.js" />
+     <Compile Include="Assets\Scripts\DestroyTerrainScript.js" />
+     <Compile Include="Assets\Scripts\EditorScript.js" />
+     <Compile Include="Assets\Scripts\FPSInputController.js" />
+     <Compile Include="Assets\Scripts\ItemScript.js" />
+     <Compile Include="Assets\Scripts\LeftFence.js" />
+     <Compile Include="Assets\Scripts\MenuScript.js" />
+     <Compile Include="Assets\Scripts\PauseScript.js" />
+     <Compile Include="Assets\Scripts\PlaneScript.js" />
+     <Compile Include="Assets\Scripts\PlatformInputController.js" />
+     <Compile Include="Assets\Scripts\RightFence.js" />
+     <Compile Include="Assets\Scripts\SceneSpawnerScript.js" />
+     <Compile Include="Assets\Scripts\ScoreBoardScript.js" />
+     <Compile Include="Assets\Scripts\Sky Scripts\Skybox.js" />
+     <Compile Include="Assets\Scripts\Sky Scripts\SunRotate.js" />
+     <Compile Include="Assets\Scripts\Sky Scripts\sun.js" />
+     <Compile Include="Assets\Scripts\SpawnerScriptJ.js" />
+     <Compile Include="Assets\Scripts\SpawnerScriptJ2.js" />
+     <Compile Include="Assets\Scripts\TerrainSpawnerScript.js" />
+     <Compile Include="Assets\Scripts\ThirdPersonCamera.js" />
+     <Compile Include="Assets\Scripts\ThirdPersonController.js" />
+     <Compile Include="Assets\Scripts\scriptPlayer.js" />
+     <Compile Include="Assets\Scripts\terraintriggerScript.js" />
+     <Compile Include="Assets\TimerScript.js" />
+     <None Include="Assets\Skydome\aScattering2.1.shader" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
